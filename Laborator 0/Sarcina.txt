@@ -1,0 +1,8 @@
+Sarcina 
+
+1.	Sa se creeze; utilizind structura, un tip abstract de date ce simuleaza o lista (queue). Implementati  functiile de manipulare a structurii:
+a.	Adaugarea unui element (la sfirsitul listei)
+b.	Adaugarea unui element la o pozitie n (selectata de la tastatura)
+c.	Stergerea primului element din lista 
+d.	Stergerea a n element din lista
+e.	Schimbul a 2 elemente din lista.
