@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #6a74f7;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane layoutY="88.0" pickOnBounds="false" prefHeight="328.0" prefWidth="600.0" style="-fx-background-color: white;">
+         <children>
+            <TextField id="label2" fx:id="label2" layoutX="176.0" layoutY="98.0" prefHeight="33.0" prefWidth="249.0" promptText="Enter second value" />
+            <Button id="solveButton" fx:id="solveButton" layoutX="217.0" layoutY="155.0" mnemonicParsing="false" onAction="#solve" prefHeight="27.0" prefWidth="167.0" style="-fx-background-color: #6a74f7;" text="SOLVE" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Astro Space" size="15.0" />
+               </font>
+            </Button>
+            <TextArea id="outputField" fx:id="outputField" editable="false" layoutX="176.0" layoutY="245.0" prefHeight="37.0" prefWidth="249.0" promptText="Output" />
+            <TextField id="label1" fx:id="label1" layoutX="176.0" layoutY="43.0" prefHeight="33.0" prefWidth="249.0" promptText="Enter first value" />
+         </children>
+      </AnchorPane>
+      <Text fill="WHITE" layoutX="131.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DIVISION CALCULATOR" textAlignment="CENTER">
+         <font>
+            <Font name="Astro Space" size="28.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
